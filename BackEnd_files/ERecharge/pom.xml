@@ -59,6 +59,14 @@
     <version>11.0.0-M6</version>
 </dependency>
 
+
+		<dependency>
+    <groupId>org.postgresql</groupId>
+    <artifactId>postgresql</artifactId>
+    <scope>runtime</scope>
+</dependency>
+
+
 	</dependencies>
 
 	<build>
