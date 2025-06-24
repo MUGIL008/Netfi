@@ -1,6 +1,11 @@
 # 📱 Netfi – Full‑Stack Telecom Recharge Management System
 
-A production-ready telecom recharge platform built with **React.js** (frontend) and **Spring Boot** (backend). Netfi implements **role-based access control (RBAC)** to allow users to browse and recharge telecom plans, while administrators can fully manage plans and add-ons.
+## 🧩 Introduction
+
+In today’s digital-first world, telecom operators and service providers are constantly evolving their online recharge platforms. I built **Netfi** — a full-stack, role-based telecom recharge management system — to address this growing need. Netfi allows **regular users** to explore prepaid and postpaid mobile plans, browse add-on packs, and recharge their numbers. At the same time, **admins** can fully manage telecom plans and add-ons through a secure, intuitive dashboard.
+
+Built using **React.js** for the frontend and **Spring Boot** for the backend, Netfi was designed to be modular, scalable, and responsive. It implements **Role-Based Access Control (RBAC)** to securely control what features are available to each user type. This ensures that sensitive operations like adding or deleting plans are restricted to authorized users only, while end users enjoy a seamless and interactive recharge experience.
+
 
 ---
 
@@ -26,9 +31,9 @@ Key features and goals:
 ```
 
 ┌─────────┐     Axios     ┌────────────┐     JDBC/JPA     ┌────────┐
-│ Browser │ ───────────▶ │ React Frontend │ ─────────▶ │ Spring  │
-│  Client │               │  (UI + Auth)   │             │ Boot   │
-└─────────┘               └────────────┘               └────────┘
+│ Browser │ ───────────▶ │ React Frontend │  ─────────▶  │ Spring │
+│  Client │               │  (UI + Auth)   │              │ Boot   │
+└─────────┘               └────────────┘                  └────────┘
 │
 MySQL / H2
 
@@ -163,15 +168,15 @@ Exposes REST endpoints for all plan-related operations.
 
 Supports:
 
-Fetching all plans
+- Fetching all plans
 
-Fetching plan by ID
+- Fetching plan by ID
 
-Adding a new plan
+- Adding a new plan
 
-Editing existing plans
+- Editing existing plans
 
-Deleting plans
+- Deleting plans
 
 ### ⚙️ PlanService.java
 Contains the business logic behind each API endpoint.
@@ -219,20 +224,32 @@ Covers status codes, JSON format, and path values.
 
 ---
 
-## 👀 Screenshots (sample suggestions)
+## 👀 Screenshots 
 
-* Login / Signup UI
-* User view: Popular Plans & Addons
-* Form: Recharge screen
-* Admin: Plan editor page
-* Admin: Add-on management UI
-* Postman: API response
-* Command line: passing test output
-* Directory structure in IDE
-
-*(Insert screenshots in `README.md` via `![alt text](path/to/image.png)`)*
-
+### Login Page:
+![alt text](https://github.com/MUGIL008/Netfi/blob/803df7d8dac9a4da02f01c32444903d9cd0931ec/Screenshots/Screenshot%20(1508).png)
 ---
+
+### SignUp Page:
+![alt text](https://github.com/MUGIL008/Netfi/blob/803df7d8dac9a4da02f01c32444903d9cd0931ec/Screenshots/Screenshot%20(1507).png)
+---
+
+### Admin Home Page:
+![alt text](https://github.com/MUGIL008/Netfi/blob/803df7d8dac9a4da02f01c32444903d9cd0931ec/Screenshots/Screenshot%20(1499).png)
+---
+
+### User Home Page:
+![alt text](https://github.com/MUGIL008/Netfi/blob/803df7d8dac9a4da02f01c32444903d9cd0931ec/Screenshots/Screenshot%20(1503).png)
+---
+
+### Admin Requests Page:
+![alt text](https://github.com/MUGIL008/Netfi/blob/803df7d8dac9a4da02f01c32444903d9cd0931ec/Screenshots/Screenshot%20(1502).png)
+---
+
+### Recharge Successful Page:
+![alt text](https://github.com/MUGIL008/Netfi/blob/803df7d8dac9a4da02f01c32444903d9cd0931ec/Screenshots/Screenshot%20(1506).png)
+---
+
 
 ## 🚧 Future Improvements
 
