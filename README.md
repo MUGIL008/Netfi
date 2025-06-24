@@ -39,6 +39,9 @@ MySQL / H2
 
 ````
 
+
+![alt text](https://github.com/MUGIL008/Netfi/blob/3ac0908a44526a0fcbd5e6c935ff447b4b443826/Screenshots/ChatGPT%20Image%20Jun%2024%2C%202025%2C%2007_00_58%20PM.png)
+
 - Frontend communicates via **REST calls** (Axios) with the backend
 - Backend uses **Spring Data JPA** with Hibernate ORM over **MySQL** (or H2 in tests)
 - Clear separation of concerns ensures maintainability and scalability
